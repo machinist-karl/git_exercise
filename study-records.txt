@@ -6,3 +6,4 @@ git init
 2）git add 文件名 --将某个文件纳入管理，放入暂存区
       git add . --将当前目录中的所有文件纳入管理，放入暂存区
 3）git commit -m '备注信息'
+4）git log --查看提交记录
