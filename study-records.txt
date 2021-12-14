@@ -8,4 +8,21 @@ git init
 3）git commit -m '备注信息'
 4）git log --查看提交记录
 
+
 3、其它命令使用
+
+
+尚硅谷k8s视频教程
+
+# 1、查看数据库版本 管理命令，mysql --version或者mysql -V
+SELECT VERSION();
+
+# 案例：关键字中带有特殊符号，如空格,#等
+SELECT email 'Employee Email address' FROM employees;
+
+#案例：姓名中首字符大写，其他字符小写然后用_拼接，显示出来
+
+SELECT CONCAT(UPPER(SUBSTR(last_name,1,1)),'_',LOWER(SUBSTR(last_name,2)))  out_put
+FROM employees;
+
+
